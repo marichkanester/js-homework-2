@@ -13,14 +13,13 @@ function fib(n) {
 alert( fib(number) ); 
 
 
-// const number= Number(prompt("Number"));
-// function fib(n) {
-//     let mas=[0, 1];
+function fib(n) {
+    let mas=[0, 1];
 
-//       for (let i=2; i<=n;i++){
-//         mas[i]=mas[mas.length-1]+mas[mas.length-2];
-//     }
-//     return mas[n];
-// }
+      for (let i=2; i<=n;i++){
+        mas[i]=mas[mas.length-1]+mas[mas.length-2];
+    }
+    return mas[n];
+}
 
-// alert( fib(number) );
+alert( fib(number) );
